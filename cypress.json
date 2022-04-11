@@ -1,0 +1,11 @@
+{
+    "baseUrl":"https://checkout.al-dawaa.com/Consultations",
+    "env": {
+        "userName": "doctor01",
+        "password": "Doctor01P@$$"
+    },
+    
+        "viewportWidth": 1366,
+        "viewportHeight": 768
+      
+}

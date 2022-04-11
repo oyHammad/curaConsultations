@@ -1,0 +1,29 @@
+// {
+//     "compilerOptions": {
+//         "target": "es5",
+//         "module": "commonjs",
+//         "strict": true,
+//         "types": [
+//             "cypress",
+//             "node",
+//             "cypress-wait-until",
+//             "./cypress/types",
+//             "@testing-library/cypress"
+//         ],
+//         "esModuleInterop": true,
+//         "resolveJsonModule": true
+//     },
+//     "include": [
+//         "cypress/**/*.ts"
+//     ]  
+// }
+
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress",
+        "@testing-library/cypress"]
+    },
+    "include": ["**/*.ts"]
+  }
