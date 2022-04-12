@@ -38,7 +38,7 @@ addUser.saveButton().click()
 
 cy.get("#mat-input-10").type(userNameInput)
 cy.get("body > app-root > app-full-layout > div > mat-sidenav-container > mat-sidenav-content > div > app-list-users > div > div > mat-card > mat-card-content > div.d-flex.search-input-style > button").click()
-cy.get('app-list-users.ng-star-inserted').click()
+cy.get('app-list-users.ng-star-inserted').click().contains(userNameInput).should('be.visible')
 
 })
 
